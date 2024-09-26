@@ -9,8 +9,8 @@ app.get('/webhook_v3', (req, res) => {
 })
 
 app.post('/webhook_v3', (req, res) => {
-  console.log(req.body)
-  res.send(req.body)
+  console.log(req)
+  res.send("success")
 })
 
 app.listen(port, () => {
