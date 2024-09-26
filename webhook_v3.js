@@ -5,7 +5,7 @@ const port = 1337
 app.use(express.json())
 
 app.get('/webhook_v3', (req, res) => {
-  res.send(req.body)
+  res.send("Lmaoez")
 })
 
 app.post('/webhook_v3', (req, res) => {
